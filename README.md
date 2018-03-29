@@ -1,2 +1,8 @@
-# tbs
-Library for working with CITE model of Text-Bearing Surface
+
+# `tbs`
+
+
+A library for working with the CITE model of Text-Bearing Surfaces.
+
+
+Documentation:  <https://cite-architecture.github.io/tbs/>.
