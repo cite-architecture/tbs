@@ -1,0 +1,26 @@
+
+
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            The TBS data model
+tagline:          'Modeling text-bearing surfaces'
+description:      ''
+
+
+baseurl: '/tbs/'
+
+
+author:
+  name:           'Neel Smith'
+
+
+links:
+  - title:  CITE Architecture home
+    url:  https://cite-architecture.github.io/
+    external: true
+  - title:  TBS Github repository
+    url:  https://github.com/cite-architecture/tbs
+    external: true
