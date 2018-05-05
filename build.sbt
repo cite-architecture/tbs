@@ -1,7 +1,7 @@
 name := "Text-Bearing Surfaces library"
 
 
-crossScalaVersions in ThisBuild := Seq("2.10.6", "2.11.8", "2.12.4")
+crossScalaVersions in ThisBuild := Seq("2.10.6", "2.11.8", "2.12.6")
 scalaVersion := (crossScalaVersions in ThisBuild).value.last
 
 
@@ -23,7 +23,7 @@ lazy val crossed = crossProject.in(file(".")).
       resolvers += Resolver.bintrayRepo("neelsmith", "maven"),
       libraryDependencies ++= Seq(
         "org.scala-js" %% "scalajs-stubs" % scalaJSVersion % "provided",
-        "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
+        "org.scalatest" %%% "scalatest" % "3.0.5" % "test",
 
         "edu.holycross.shot.cite" %%% "xcite" % "3.2.1",
         "edu.holycross.shot" %%% "cex" % "6.2.1"

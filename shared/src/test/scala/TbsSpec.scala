@@ -13,5 +13,7 @@ class TbsSpec extends FlatSpec {
   "A Text-Bearing Surface" should "do stuff" in pending
 
 
-
+  "the Tbs object" should "instantiate a Tbs from a delimited string" in {
+    
+  }
 }

@@ -15,3 +15,24 @@ import scala.scalajs.js.annotation._
 @JSExportAll case class Tbs (surface: Cite2Urn, image: Cite2Urn) {
 
 }
+
+/** Factory object for creating [[Tbs]]s from delimited string data.
+*/
+object Tbs {
+
+  /** Create a [[Tbs]] from a String.
+  *
+  * @param s String data for a [[Tbs]].
+  * @param delimiter Delimiting string.
+  */
+  def apply(s: String, delimiter: String = "#"):  Tbs = {
+    val parts = s.split(delimiter)
+    try {
+      val surf = Cite2Urn(parts(0))
+      val img = Cite2Urn(parts(1))
+      Tbs(surf,img)
+    } catch {
+      case t: Throwable => throw(t)
+    }
+  }
+}
