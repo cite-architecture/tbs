@@ -17,3 +17,9 @@ import scala.scalajs.js.annotation._
 @JSExportAll case class TbsCollection (surfaces: Vector[Tbs]) {
 
 }
+
+
+object TbsCollection {
+
+  // apply from CiteCollection
+}
