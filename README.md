@@ -16,6 +16,6 @@
 See <https://cite-architecture.github.io/tbs/>.
 
 
-## Current version: 0.0.2
+## Current version: 0.0.3
 
 No published releases yet: in initial design phase.  See
